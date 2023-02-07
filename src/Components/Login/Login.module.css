@@ -1,0 +1,140 @@
+.wrapper{
+   height: 24px;
+  width: 65px;
+  background-color: rgb(248, 68, 100);
+  border: rgb(248, 68, 100);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+    font-size: 8px;
+    background-color: rgb(255, 255, 255);
+    height: 45px;
+    width: 332px;
+    border-radius: 5px;
+    border: 1px rgb(153, 153, 153) solid;
+    color: rgb(89,89,89);
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: start;
+    align-items: center;   
+    flex-direction: row-reverse;
+    
+}
+
+.btn:hover{
+    background-color:rgb(240, 240, 240);
+    border: none;
+}
+
+.container{
+    /* border: 1px solid red; */
+    height: 220px;
+    width: 394px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.nav{
+    display: flex;
+ justify-content: center;
+ /* border: 1px solid; */
+ height: 72px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+}
+
+.input_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 5px;
+   margin-top: 3rem;
+}
+
+.input{
+    width:277px;
+    outline: none;
+    border: none;
+    height: 30px;
+   border-bottom: 1px rgb(204, 204, 204) solid;
+  
+}
+
+.google{
+margin-right: 65px;
+margin-left: 15px;
+}
+
+.apple{
+    margin-right: 65px;
+    margin-left: 15px;
+    color: black;
+    font-size: 16px;
+}
+
+.bottom{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    color: rgb(102, 102, 102);
+}
+
+
+.link{
+    color: rgb(102, 102, 102);
+    
+}
+
+.close{
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+}
+
+
+.title{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: 328px;
+    color: rgb(51, 51, 51);
+    font-weight: 500;
+}
+
+.signup{
+    border: 1px solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.signup p{
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+}

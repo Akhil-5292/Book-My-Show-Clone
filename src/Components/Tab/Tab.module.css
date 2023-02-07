@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.left{
+    display: flex;
+    height: 40px;
+    width: 687px;
+    gap: 15px;
+    align-items: center;
+    margin: 0 135px;
+    color: #CCCCCC;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222539;
+
+}
+
+
+.right{
+    display: flex;
+    width: 25vw;
+    height: 40px;
+    align-items: center;
+    margin: 0 135px;
+    gap: 15px;
+    justify-content: flex-end;
+    color: #ffffff;
+    font-size: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+}

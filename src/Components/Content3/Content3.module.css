@@ -1,0 +1,41 @@
+.App {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 5px;
+  }
+  .wrapper{
+    margin-bottom: 350px;
+    width: 5px; 
+  }
+
+  .img{
+    height: 315px;
+    width: 235px;
+    cursor: pointer;
+  }
+
+  .main p{
+    cursor: pointer;
+    color: black;
+    font-size: 14px;
+    display: flex;
+
+  }
+
+  .heading{
+    display: flex;
+    align-items:start;
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+    color: #333333;
+    padding-bottom:5px;
+    margin-top: 35px;
+  }
+
+  .outer{
+    height: 500px;
+    margin: 0 135px;
+  }

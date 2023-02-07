@@ -1,0 +1,125 @@
+.wrapper{
+    /* border: 1px solid; */
+    height: 69vh;
+    width: 83vw;
+    display: flex;
+    gap: 280px;
+    overflow: hidden;
+    background-image: linear-gradient(90deg, rgb(26, 26, 26) 24.97%, rgb(26, 26, 26) 38.3%, rgba(26, 26, 26, 0.04) 97.47%, rgb(26, 26, 26) 100%), 
+    url(https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/pathaan-et00323848-1674372556.jpg);
+}
+
+.container{
+    border: 1px solid;
+    height: 69vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 26, 26);
+}
+
+.img1{
+    height: 392px;
+    width: 261px;
+    }
+
+ .img{
+    display: flex;
+    /* border: 1px solid green; */
+    height: 416px;
+    width: 934px;
+    gap: 20px;
+ }   
+
+ .title{
+    height: 400px;
+    width: 488px;
+   /* border: 1px solid red; */
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   margin-top: 55px;
+}
+
+ .title h1{
+    display: flex;
+    color: #ffffff;
+ }
+
+ .title p{
+    display: flex;
+ }
+
+ .rate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 15px ;
+    color: white;
+    font-size: 18px;
+    background-color: #333333;
+    border-radius: 5px;
+    width: 400px;
+    cursor: pointer;
+ }
+
+ .rate h4{
+    padding: 5px;
+ }
+
+ .btn{
+    border: none;
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-size: 15px;
+    font-weight: 600;
+    height: 40px;
+    width: 100px;
+    color: #333333;
+ }
+
+ .link{
+    display: flex;
+    gap: 5px;
+ }
+
+ .anchor{
+    background-color: #e5e5e5;
+    padding: 2px 8px;
+    border: 1px solid;
+ }
+
+ .anchor a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+ }
+
+ .duration{
+    display: flex;
+    color: #ffffff;
+    font-size: 16px;
+ }
+
+ .btn2{
+    width: 215px;
+    height: 48px;
+    background-color: rgb(248, 68, 100);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+ .cinema{
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    height: 420px;
+    width: 261px;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-size: 12px;
+    cursor: pointer;
+ }
+
+ 
