@@ -44,13 +44,13 @@ export default function Signup() {
         
             <div className={style.container}>
             <CustomButton 
-            icon = {<img src="https://in.bmscdn.com/webin/common/icons/googlelogo.svg" className={style.google}/>}
+            icon = {<img src="https://in.bmscdn.com/webin/common/icons/googlelogo.svg" alt='img' className={style.google}/>}
             btntext='Continue with Google'
             onClick={()=>alert('clicked')}
             style={style.btn}/>
 
              <CustomButton 
-            icon = {<img src="https://in.bmscdn.com/webin/common/icons/email.svg" className={style.google}/>}
+            icon = {<img src="https://in.bmscdn.com/webin/common/icons/email.svg" alt='img' className={style.google}/>}
             btntext='Continue with Email'
             onClick={()=>alert('clicked')}
             style={style.btn}/>

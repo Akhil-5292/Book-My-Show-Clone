@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Dialog from "@material-ui/core/Dialog";
 import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
@@ -8,12 +8,16 @@ import Button from "@material-ui/core/Button";
 import style from './Login.module.css'
 import CustomButton from "../Atom/CustomButton";
 import { SiApple } from 'react-icons/si';
-import { useNavigate} from "react-router-dom";
-import { Link } from "react-router-dom";
+import Signup from "../Register/Signup";
   
 export default function Login() {
   const [open, setOpen] = React.useState(false);
-  const navigate=useNavigate();
+  const [signup, setSignup] = useState(false)
+ 
+  
+  const handleSignup=()=>{
+    setSignup(true)
+  }
   
   const handleClickToOpen = () => {
     setOpen(true);
@@ -46,13 +50,13 @@ export default function Login() {
         
             <div className={style.container}>
             <CustomButton 
-            icon = {<img src="https://in.bmscdn.com/webin/common/icons/googlelogo.svg" className={style.google}/>}
+            icon = {<img src="https://in.bmscdn.com/webin/common/icons/googlelogo.svg" alt='img' className={style.google}/>}
             btntext='Continue with Google'
             onClick={()=>alert('clicked')}
             style={style.btn}/>
 
              <CustomButton 
-            icon = {<img src="https://in.bmscdn.com/webin/common/icons/email.svg" className={style.google}/>}
+            icon = {<img src="https://in.bmscdn.com/webin/common/icons/email.svg" alt='img' className={style.google}/>}
             btntext='Continue with Email'
             onClick={()=>alert('clicked')}
             style={style.btn}/>
@@ -72,7 +76,7 @@ export default function Login() {
               placeholder='Continue with mobile number'/>
             </div>
 
-            <div className={style.signup}>Already have an account? <Link to='/Signup'>Sign Up</Link></div>       
+            <div className={style.signup}>Already have an account? <p onClick={handleSignup}>signup</p> {signup ? <Signup/> : ''}</div>       
             <div className={style.bottom}>I agree to the&nbsp;
             <a href="/terms-and-conditions" target="_blank" className={style.link}>Terms &amp; Conditions</a>
             &nbsp;&&nbsp;
